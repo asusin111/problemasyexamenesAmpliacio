@@ -1,5 +1,6 @@
-package examen_1617_prob3;
+package patronesudlejercicios.examen_1617_prob3;
 
+import patronesudlejercicios.examen_1617_prob3.MachineComponent;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,24 +8,21 @@ import java.util.Map;
  * @author Alberto Susin
  */
 
-// MODO 3: SYNCHRONIZED
-public class Register3{
+// MODO 2: LAZY INITIALIZATION
+public class Register2{
 
-    private static Register3 register;
-    private static final Object obsinc = 5;
-    
+    private static Register2 INSTANCE = null;
     private final Map<String,MachineComponent> machines;
     
-    public static Register3 getInstance(){
-        synchronized(obsinc){            
-            if(register == null){
-                register = new Register3();
-            }
-            return register;
+    public static Register2 getInstance(){
+    
+        if(INSTANCE == null){
+            INSTANCE = new Register2();
         }
+        return INSTANCE;
     }
     
-    private Register3() {
+    private Register2() {
         machines = new HashMap<>();
     }
     
@@ -34,5 +32,6 @@ public class Register3{
     
     public void getComponent(String name){
         machines.get(name);
+    
     }
 }

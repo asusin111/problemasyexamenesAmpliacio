@@ -1,5 +1,6 @@
-package examen_1617_prob3;
+package patronesudlejercicios.examen_1617_prob3;
 
+import patronesudlejercicios.examen_1617_prob3.MachineComponent;
 import java.util.HashMap;
 import java.util.Map;
 

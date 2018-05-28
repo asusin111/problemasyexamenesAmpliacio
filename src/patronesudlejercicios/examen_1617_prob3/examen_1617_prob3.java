@@ -1,4 +1,4 @@
-package examen_1617_prob3;
+package patronesudlejercicios.examen_1617_prob3;
 
 //EXAMEN segunda parte SOLUCIONADO RECUPERACIO
 //UDL 20116/2017: AMPLIACIÓ DE BASES DE DADES I ENGINYERIA DEL PROGRAMARI
