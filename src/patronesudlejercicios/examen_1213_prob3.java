@@ -1,3 +1,7 @@
+
+//EXAMEN segunda parte SOLUCIONADO
+//UDL 2012/2013: AMPLIACIÓ DE BASES DE DADES I ENGINYERIA DEL PROGRAMARI
+//Esta hecho sobre papel, no esperar que compile ya que faltan clases
 package patronesudlejercicios;
 
 /**

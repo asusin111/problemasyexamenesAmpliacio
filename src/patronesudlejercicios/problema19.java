@@ -1,3 +1,8 @@
+
+//PROBLEMA 19: PATRON VISITOR
+//UDL 2017/2018: AMPLIACIÓ DE BASES DE DADES I ENGINYERIA DEL PROGRAMARI
+//Esta hecho sobre papel, no esperar que compile ya que faltan clases
+
 package patronesudlejercicios;
 
 import java.util.ArrayList;

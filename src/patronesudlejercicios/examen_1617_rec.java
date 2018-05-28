@@ -1,7 +1,7 @@
 
 //EXAMEN segunda parte SOLUCIONADO RECUPERACIO
 //UDL 2015/2016: AMPLIACIÓ DE BASES DE DADES I ENGINYERIA DEL PROGRAMARI
-
+//Esta hecho sobre papel, no esperar que compile ya que faltan clases
 package patronesudlejercicios;
 
 import java.io.BufferedReader;
@@ -12,12 +12,14 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
- * @author Fran,Oriol,Alberto
+ * @author Alberto Susin
  */
+
 public class examen_1617_rec {
 } 
 
-
+//Esta funcion carga itera linea por linea un fichero con un iterador
+//Puede comprobar si hay mas lineas (hasNext) e ir a la siguiente linea (next)
 public class LinesIterator implements Iterator<String>{
     private final BufferedReader br;
     private String nextElement;
@@ -131,7 +133,6 @@ public class LinesIterator implements Iterator<String>{
             }
         }
     }
-    /* Curso aprender Java desde cero aprenderaprogramar.com */
 
     public static void main (String [ ] args) {
 
