@@ -18,7 +18,7 @@ public class examen_1516_recu {}
 //El patron Composite permite estructuras en arbol
 //El patron Observer permitira detectar cambios de estado
 /////Observer ira sobre MachineComposite para mirar a sus componentes
-///// Observable serán todas las instancias de machine
+///// Observable serán todas las instancias de machine 
 
 public abstract class MachineComponent extends Observable{
 
